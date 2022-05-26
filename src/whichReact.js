@@ -1,5 +1,5 @@
 // !  React 18
-import * as React from "react";
+import * as React from 'react';
 import {
   useState,
   useReducer,
@@ -17,11 +17,11 @@ import {
   Suspense,
   SuspenseList,
   startTransition,
-} from "react";
+} from 'react';
 
-import * as ReactDOM from "react-dom";
-import { flushSync } from "react-dom";
-import { createRoot } from "react-dom/client";
+import * as ReactDOM from 'react-dom';
+import { flushSync } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 
 export {
   React,
@@ -46,7 +46,3 @@ export {
   startTransition,
   useTransition,
 };
-
-//**********************************分割线**********************************
-// mini react
-//**********************************分割线**********************************
